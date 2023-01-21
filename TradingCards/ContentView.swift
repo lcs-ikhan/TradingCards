@@ -11,44 +11,76 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundColor(.red)
+                .foregroundColor(.yellow)
                 .ignoresSafeArea()
             
             VStack {
-                HStack{
-                    Text("League")
+                HStack(spacing: 250){
+                    Image("LaLiga")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height:50)
                     
-                    Spacer()
+                   
                     
-                    Text("Team")
+                    Image("RealMadrid")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height:50)
                 }
-                Spacer()
+            Spacer()
                 ZStack{
                     Rectangle()
-                        .frame(width: 300, height: 500)
+                        .frame(width: 500, height: 300)
                     
                     Rectangle()
                         .foregroundColor(.red)
-                        .frame(width: 280, height: 480)
+                        .frame(width: 480, height: 280)
                     
                     Image("Ronaldo")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 50, height: 100)
+                      
+
                     
                 }
             
-                    
-                    
-                   
-                    
-
+           Spacer()
                 
-                Spacer()
+                HStack(spacing: 50){
+                  
+                    VStack(spacing: 10){
+                        Text("Age")
+                            .font(.title2)
+                            .bold()
+                        
+                        Text("31")
+                            .font(.title3)
+                    }
                 
-                HStack{
+                    VStack(spacing: 10) {
+                        Text("Position")
+                            .font(.title2)
+                        .bold()
+                        
+                        Text("Left Wing")
+                            .font(.title3)
+                    }
+                    
+                    VStack(spacing: 0) {
+                        Text("Country")
+                            .font(.title2)
+                        .bold()
+                    
+                        Image("Portugal")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 30, height: 30)
+                    }
+                    
                     
                 }
+                Spacer()
             }
             .padding()
         }
