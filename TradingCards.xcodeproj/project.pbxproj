@@ -52,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				855DF332297C3FB800EA7D10 /* TradingCardsApp.swift */,
+				855DF340297C405100EA7D10 /* Views */,
 				855DF334297C3FB800EA7D10 /* ContentView.swift */,
 				855DF336297C3FBD00EA7D10 /* Assets.xcassets */,
 				855DF338297C3FBD00EA7D10 /* Preview Content */,
@@ -65,6 +66,13 @@
 				855DF339297C3FBD00EA7D10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		855DF340297C405100EA7D10 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
