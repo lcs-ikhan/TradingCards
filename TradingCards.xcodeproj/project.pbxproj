@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		854F5A7629820A6200268D85 /* LM10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854F5A7529820A6200268D85 /* LM10.swift */; };
+		854F5A78298216FF00268D85 /* R9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854F5A77298216FE00268D85 /* R9.swift */; };
+		854F5A7A29821B2500268D85 /* Kylian Mbappe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854F5A7929821B2500268D85 /* Kylian Mbappe.swift */; };
+		854F5A7C2982200B00268D85 /* Zidane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854F5A7B2982200B00268D85 /* Zidane.swift */; };
 		855DF333297C3FB800EA7D10 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855DF332297C3FB800EA7D10 /* TradingCardsApp.swift */; };
 		855DF335297C3FB800EA7D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855DF334297C3FB800EA7D10 /* ContentView.swift */; };
 		855DF337297C3FBD00EA7D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855DF336297C3FBD00EA7D10 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 
 /* Begin PBXFileReference section */
 		854F5A7529820A6200268D85 /* LM10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LM10.swift; sourceTree = "<group>"; };
+		854F5A77298216FE00268D85 /* R9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R9.swift; sourceTree = "<group>"; };
+		854F5A7929821B2500268D85 /* Kylian Mbappe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Kylian Mbappe.swift"; sourceTree = "<group>"; };
+		854F5A7B2982200B00268D85 /* Zidane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zidane.swift; sourceTree = "<group>"; };
 		855DF32F297C3FB800EA7D10 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		855DF332297C3FB800EA7D10 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		855DF334297C3FB800EA7D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +83,9 @@
 			children = (
 				855DF334297C3FB800EA7D10 /* ContentView.swift */,
 				854F5A7529820A6200268D85 /* LM10.swift */,
+				854F5A77298216FE00268D85 /* R9.swift */,
+				854F5A7929821B2500268D85 /* Kylian Mbappe.swift */,
+				854F5A7B2982200B00268D85 /* Zidane.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,8 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				855DF335297C3FB800EA7D10 /* ContentView.swift in Sources */,
+				854F5A7A29821B2500268D85 /* Kylian Mbappe.swift in Sources */,
 				855DF333297C3FB800EA7D10 /* TradingCardsApp.swift in Sources */,
 				85F5F2922981FC2F00FDDE0B /* SoccerCard.swift in Sources */,
+				854F5A78298216FF00268D85 /* R9.swift in Sources */,
+				854F5A7C2982200B00268D85 /* Zidane.swift in Sources */,
 				854F5A7629820A6200268D85 /* LM10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

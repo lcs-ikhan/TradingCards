@@ -1,5 +1,5 @@
 //
-//  LM10.swift
+//  Kylian Mbappe.swift
 //  TradingCards
 //
 //  Created by Isaad Khan on 2023-01-25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LM10: View {
+struct Kylian_Mbappe: View {
     let cardToShow: SoccerCard
     
     var body: some View {
@@ -100,8 +100,8 @@ struct LM10: View {
     }
 }
 
-struct LM10_Previews: PreviewProvider {
+struct Kylian_Mbappe_Previews: PreviewProvider {
     static var previews: some View {
-        LM10(cardToShow: LionelMessi)
+        Kylian_Mbappe(cardToShow: KylianMbappe)
     }
 }

@@ -1,5 +1,5 @@
 //
-//  LM10.swift
+//  Zidane.swift
 //  TradingCards
 //
 //  Created by Isaad Khan on 2023-01-25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LM10: View {
+struct Zidane: View {
     let cardToShow: SoccerCard
     
     var body: some View {
@@ -98,10 +98,11 @@ struct LM10: View {
             .padding()
         }
     }
+
 }
 
-struct LM10_Previews: PreviewProvider {
+struct Zidane_Previews: PreviewProvider {
     static var previews: some View {
-        LM10(cardToShow: LionelMessi)
+        Zidane(cardToShow: ZinedineZidane)
     }
 }
