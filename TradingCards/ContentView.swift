@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundColor(.yellow)
+                .foregroundColor(Color("Redd"))
                 .ignoresSafeArea()
             
             VStack {
@@ -81,6 +81,10 @@ struct ContentView: View {
                     
                 }
                 Spacer()
+                
+                Text("Ronaldo is one of Soccer's all time greats, with an impressive collection of 5 Champions league trophies, 5 Baloon dors, 4 Golden boots, a Euro and more. He is also Soccers leading goalscorer in every major competition.")
+                    .font(.title3)
+                    .frame(width: 350) 
             }
             .padding()
         }
