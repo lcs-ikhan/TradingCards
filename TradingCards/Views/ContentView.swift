@@ -8,22 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let cardToShow: SoccerCard
+    
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundColor(Color("Redd"))
+                .foregroundColor(cardToShow.color)
                 .ignoresSafeArea()
             
             VStack {
                 HStack(spacing: 250){
-                    Image("LaLiga")
+                    // League
+                    cardToShow.league
                         .resizable()
                         .scaledToFit()
                         .frame(width: 50, height:50)
                     
                    
-                    
-                    Image("RealMadrid")
+                    // Team
+                    cardToShow.team
                         .resizable()
                         .scaledToFit()
                         .frame(width: 50, height:50)
@@ -37,7 +41,7 @@ struct ContentView: View {
                         .foregroundColor(.red)
                         .frame(width: 480, height: 280)
                     
-                    Image("Ronaldo")
+                    cardToShow.player
                         .resizable()
                         .scaledToFit()
                       
@@ -46,6 +50,12 @@ struct ContentView: View {
                 }
             
            Spacer()
+                
+                Text(cardToShow.name)
+                    .font(.title2)
+                    .bold()
+                
+                Spacer()
                 
                 HStack(spacing: 50){
                   
@@ -63,7 +73,7 @@ struct ContentView: View {
                             .font(.title2)
                         .bold()
                         
-                        Text("Left Wing")
+                        Text(cardToShow.position)
                             .font(.title3)
                     }
                     
@@ -72,7 +82,7 @@ struct ContentView: View {
                             .font(.title2)
                         .bold()
                     
-                        Image("Portugal")
+                        cardToShow.country
                             .resizable()
                             .scaledToFit()
                             .frame(width: 30, height: 30)
@@ -82,7 +92,7 @@ struct ContentView: View {
                 }
                 Spacer()
                 
-                Text("Ronaldo is one of Soccer's all time greats, with an impressive collection of 5 Champions league trophies, 5 Baloon dors, 4 Golden boots, a Euro and more. He is also Soccers leading goalscorer in every major competition.")
+                Text(cardToShow.description)
                     .font(.title3)
                     .frame(width: 350) 
             }
@@ -93,6 +103,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(cardToShow: CristianoRonaldo)
     }
 }
